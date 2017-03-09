@@ -57,6 +57,43 @@ body {
     box-sizing: border-box;
 }
 
+
+/* Basic */
+
+#animatedgradient {
+    background: linear-gradient(270deg, #a5b984, #9fcabf, #af9fca, #cec6a6, #f5bc8d, #dd7c7c, #e8cd8f, #8a7db0);
+    background-size: 1600% 1600%;
+    
+    -webkit-animation: GradientTransition 30s ease infinite;
+    -moz-animation: GradientTransition 30s ease infinite;
+    -o-animation: GradientTransition 30s ease infinite;
+    animation: GradientTransition 30s ease infinite;
+}
+
+@-webkit-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+
 /* Basic */
 
 @media screen and (max-width: 480px) {
