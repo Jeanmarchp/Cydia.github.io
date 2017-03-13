@@ -64,10 +64,10 @@ body {
     background: linear-gradient(270deg, #a5b984, #9fcabf, #af9fca, #cec6a6, #f5bc8d, #dd7c7c, #e8cd8f, #8a7db0);
     background-size: 1600% 1600%;
     
-    -webkit-animation: GradientTransition 50s ease infinite;
-    -moz-animation: GradientTransition 50s ease infinite;
-    -o-animation: GradientTransition 50s ease infinite;
-    animation: GradientTransition 50s ease infinite;
+    -webkit-animation: GradientTransition 55s ease infinite;
+    -moz-animation: GradientTransition 55s ease infinite;
+    -o-animation: GradientTransition 55s ease infinite;
+    animation: GradientTransition 55s ease infinite;
 }
 
 @-webkit-keyframes GradientTransition {
