@@ -1192,6 +1192,14 @@ button:disabled,
                 
 }
 
+#main .icons li .fa-calendar-plus-o{
+    background-color:#4B0082;
+}
+
+#main .icons li .fa-calendar-check-o{
+    background-color:#4B0082;
+}
+
 body.is-loading #main {
     opacity: 0;
     -moz-transform: rotateX(15deg);
@@ -1231,6 +1239,18 @@ body.is-loading #main {
 
 #footer .copyright li:first-child {
     border-left: 0;
+}
+
+#footer .icons li .fa-twitter{
+    background-color:#00aced;
+}
+
+#footer .icons li .fa-facebook{
+    background-color:#3b5998;
+}
+
+#footer .icons li .fa-instagram{
+    background-color:#517fa4;
 }
 
 /* Statistics */
