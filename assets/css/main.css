@@ -11,6 +11,13 @@
 
 /* Icon KAPPA m8 */
 
+
+
+background: #42275a; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #42275a , #734b6d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #42275a , #734b6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 .icon {
     text-decoration: none;
     -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
